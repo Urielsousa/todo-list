@@ -25,5 +25,29 @@ export default function Dashboard () {
                     </p>
                     <h2 className='text-3xl font-bold mt-2'>0</h2>
                 </div>
+
+
+                <div className='bg-gray-900 p-5 rounded-2xl border border-gray-800'>
+                    <p className='text-gray-400 text-sm'> Pendentes </p>
+                    <h2 className='text-3xl font-bold mt-2 text-yellow-400'>0</h2>
+                </div>
+
+                <div className='bg-gray-900 p-5 rounded-2xl border border-gray-800'>
+                    <p className='text-gray-400 text-sm'> Concluídas </p>
+                    <h2 className='text-3xl font-bold mt-2 text-green-400'>0</h2>
+                </div>
             </div>
+
+            {/* Listagem de tarefas */}
+
+            <div className='bg-gray-900 rounded-2xl border border-gray-800 p-6'>
+                <h3 className='text-xl font-bold mb-4'>Minhas tarefas</h3>
+
+                <div className='text-center py-12 text-gray-500'>
+                    Nenhuma tarefa encontrada ✨
+                </div>
+            </div>
+
+
+        </div>
     )
